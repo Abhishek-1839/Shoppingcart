@@ -1,0 +1,27 @@
+.restaurant-list{
+  display:flex;
+  justify-content: space-around;
+}
+.restaurant-card {
+  width: 200px;
+  height: 411px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+.restaurant-poster {
+  width: 200px;
+  height: 230px;
+  object-fit: fill;
+}
+
+.restaurant-name {
+  margin: 0px;
+}
+.style-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
