@@ -1,0 +1,64 @@
+/* navbar.css */
+
+/* General styling for the navbar */
+.navbar-custom {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Brand styling */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem; /* Adjust brand font size */
+    color: #333333; /* Darker text color for contrast */
+  }
+  
+  .navbar-brand:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Navbar links */
+  .nav-link {
+    color: #555555; /* Medium gray color for links */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .nav-item.active .nav-link {
+    color: #007bff; /* Active link color */
+  }
+  
+  /* Dropdown menu */
+  .navbar-nav .dropdown-menu {
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for dropdown */
+  }
+  
+  /* Cart button */
+  .btn-outline-dark {
+    color: #333333; /* Darker text color */
+    border-color: #333333; /* Darker border color */
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: #333333; /* Darker background on hover */
+    color: #ffffff; /* White text on hover */
+  }
+  
+  .badge {
+    font-size: 0.8rem; /* Adjust badge font size */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar-custom .navbar-toggler {
+      border: none; /* Remove border from toggler */
+    }
+  
+    .navbar-custom .navbar-toggler:focus {
+      outline: none; /* Remove outline on focus */
+    }
+  }
+  

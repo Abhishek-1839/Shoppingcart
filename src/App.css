@@ -1,6 +1,9 @@
 .restaurant-list{
   display:flex;
   justify-content: space-around;
+  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 .restaurant-card {
   width: 200px;
